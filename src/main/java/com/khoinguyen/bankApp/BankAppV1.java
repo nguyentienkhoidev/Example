@@ -1,4 +1,4 @@
-package com.khoinguyen;
+package com.khoinguyen.bankApp;
 
 import java.util.Scanner;
 

@@ -1,9 +1,11 @@
 package com.khoinguyen;
 
+import com.khoinguyen.oopp.Student;
+
 public class ArrayMain {
 
   public static void main(String[] args) {
-
+    Student s1 = new Student();
 
     //mảng 2 chiều
     int[][] xArr = new int[3][5];

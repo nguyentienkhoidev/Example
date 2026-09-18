@@ -1,0 +1,26 @@
+package com.khoinguyen.oop_bt.bt2;
+
+public class NhanVienPartTime extends NhanVien{
+  private int soGioLam;
+
+  public NhanVienPartTime() {
+  }
+
+  public NhanVienPartTime(String ten, double luongCoBan, int soGioLam) {
+    super(ten, luongCoBan);
+    this.soGioLam = soGioLam;
+  }
+
+  public int getSoGioLam() {
+    return soGioLam;
+  }
+
+  public void setSoGioLam(int soGioLam) {
+    this.soGioLam = soGioLam;
+  }
+
+  @Override
+  public double tinhLuong() {
+    return luongCoBan + (soGioLam * 100000);
+  }
+}
